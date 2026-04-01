@@ -1,0 +1,55 @@
+/* initialisation */
+:root{
+    --nav-link : #2B1105;
+    --intro-text: #C6754D;
+
+}
+a{
+    text-decoration: none;
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Montaga',sans-serif;
+    padding: 0 8rem;
+
+}
+ 
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+header a{
+    color: var(--nav-link)
+    display: flex;
+    gap: 3rem;
+}
+.logo {
+    order: ;
+}
+/* hero - section */
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+.intro h5{
+    font-size: 8rem;
+    color: var(--nav-link);
+    font-family:  'Montaga',sans-serif;
+}
+.intro p{
+    font-family:  'Montaga',sans-serif;
+    font-size: 2rem;
+    color: var(--intro-text);
+}
